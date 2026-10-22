@@ -35,6 +35,7 @@ window.funeral = {
     "Go tloga fao a leba gola Siyabuswa Denelton Technical Colege, moo a ilego a ya go dira Welding le Boiler Making. Maremo ebe ele motho wa go rata kgwebo, leruo, le hlabolo. Gona moo Siyabuswa obe a fota le dinepe (camera man) le go rekisa. Ka morago ga dithuto tsa gagwe o ile a tsenela tsa dithekisi tsa MOLLDTA a soma gape le ka Mankweng Taxi Association go fihla go la bjale. Mohu o ile a hwetsa sefoka (award) ya go mo hlompha (honour) go tsa Civility le Beacon of light gotswa go mokgahlo wa I change nations go la America.",
   ],
   signature: "With love, the family",
+  obituaryClosing: "ROBALA KA KHUTSO NAPENYANE A MAHLOGO",
   nokoTribute: {
     salutation: "To the family,", // For example, "To the Molepo family,"
     message: "There are no words that can take away the pain of losing someone so deeply loved. From all of us at Noko Funerals, please accept our heartfelt condolences. May the love around you hold you gently, and may the memories you treasure bring moments of peace in the days ahead.",

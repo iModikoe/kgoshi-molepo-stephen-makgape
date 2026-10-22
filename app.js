@@ -28,6 +28,7 @@
   put('dedication', data.dedication);
   put('tribute', data.remembrance);
   put('signature', data.signature);
+  put('obituary-closing', data.obituaryClosing);
   put('family-note', data.familyNote);
   put('noko-salutation', data.nokoTribute?.salutation);
   put('noko-message', data.nokoTribute?.message);
@@ -112,7 +113,8 @@
     if (pages.length) {
       const preview = document.createElement('button'); preview.type = 'button'; preview.className = 'programme-cover'; preview.setAttribute('aria-label', 'View the complete funeral programme');
       const cover = document.createElement('img'); cover.src = pages[0]; cover.alt = 'Cover of the funeral programme for ' + data.name; cover.loading = 'lazy';
-      const caption = document.createElement('span'); caption.textContent = 'View the complete programme \u2197';
+      const caption = document.createElement('span'); caption.textContent = 'View the complete programme ';
+      caption.append(document.querySelector('.arrow-up-right').cloneNode(true));
       preview.append(cover, caption); preview.addEventListener('click', () => byId('programme-open').click()); byId('programme-list').append(preview);
     }
   }

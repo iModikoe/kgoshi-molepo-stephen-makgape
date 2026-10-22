@@ -28,3 +28,5 @@ The ZIP prepared alongside this project contains these files at its root. Extrac
 Edit `funeral.js` for funeral details and photographs. Dates use YYYY-MM-DD; times use HH:MM in South African time. If replacing the PDF, update its path and regenerate the corresponding programme preview images.
 
 Open `index.html` locally to preview. Sharing becomes available at a public HTTPS address. The page requests no search indexing; this is not access control. The memorial does not collect or submit visitor messages. Local storage is used only to remember motion preferences.
+
+Arrow icons are inline SVGs from Lucide, avoiding emoji rendering on phones. The Lucide/Feather license is included in `assets/lucide-LICENSE`.
